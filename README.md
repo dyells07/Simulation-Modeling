@@ -51,3 +51,28 @@
   <li>NIST. (2021). <i>Four-Digit Poker Test</i>. Retrieved from <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-22r1a.pdf">https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-22r1a.pdf</a></li>
 </ul>
  </body>
+ 
+ 
+ <body>
+	<h1>Chemical Reaction Simulation User Manual</h1>
+	<p>This program simulates the chemical reaction between two reactants (C1 and C2) to produce a product (C3).</p>
+less
+Copy code
+<h2>Program Inputs</h2>
+<ul>
+	<li><strong>k1:</strong> Rate constant for the reaction between C1 and C2</li>
+	<li><strong>k2:</strong> Rate constant for the decomposition of C3</li>
+	<li><strong>c1(0):</strong> Initial concentration of C1</li>
+	<li><strong>c2(0):</strong> Initial concentration of C2</li>
+	<li><strong>c3(0):</strong> Initial concentration of C3</li>
+	<li><strong>delta:</strong> Small increment of time</li>
+	<li><strong>time:</strong> Total simulation time</li>
+</ul>
+
+<h2>Program Outputs</h2>
+<p>The program outputs the concentration of C1, C2, and C3 at each time increment, as well as a text file ("lab01.txt") containing the same data.</p>
+
+<h2>Graphing the Data</h2>
+<p>To graph the data, open the "lab01.txt" file in a spreadsheet program (such as Microsoft Excel or Google Sheets) and plot the concentration of each species over time.</p>
+
+</body>
